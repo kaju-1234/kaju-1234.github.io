@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: blue;
+  color: #03dffc;
 }
 
 a:hover {
@@ -9,10 +9,13 @@ a:hover {
 }
 
 body {
-  background-color: beige;
-  color:black;
+  opacity: .9;
+  color:gray;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
 }
 
 footer{
@@ -21,12 +24,14 @@ footer{
 }
 
 h1 {
+  color: #9003fc;
+  font-style: italic;
   margin-bottom: 0.5rem;
   margin-top: 3rem;
 }
 
 h2 {
-  color: #075AAB;
+  color: #fce303;
   margin-bottom: 2.5rem;
   margin-top: 2.5rem;
 }
@@ -44,10 +49,20 @@ h4 {
 h5 {
   margin-top: 0.5rem;
 }
+p{
+  color: white;
+  margin-left: 500px;
+  margin-right: 500px;
+}
 
 
 ul {
   display: table;
   margin: 0 auto;
   text-align: left;
+}
+section>p {
+  background-color: purple;
+  opacity: .6;
+  text-align-last: center;
 }
